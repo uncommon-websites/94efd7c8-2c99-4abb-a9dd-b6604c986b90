@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Double Agency",
+	description: "Collaborative creative for impactful brands. We transform brand identities into scalable creative systems through collaborative design processes and implementation toolkits.",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://doubleagency.co",
 	fontFamily: "Inter Variable"
 };
