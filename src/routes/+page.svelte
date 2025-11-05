@@ -36,62 +36,91 @@
 />
 
 <Summary
-	generating
 	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	text="Double Agency transforms brand identities into scalable creative systems for growth-stage marketing leaders. We partner with brands like Meta, Tonal, and Quay Australia to deliver not just beautiful design, but the tools and processes that empower your team to execute with confidence. From visual identity to marketing materials and immersive experiences, we build collaborative frameworks that grow with your business."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Maya Chen",
+			position: "VP of Marketing",
+			company: "Bloom Naturals",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Double Agency delivered a brand system that cut our creative turnaround time by 60%. Our team can now produce campaign assets in hours instead of weeks, and everything stays perfectly on brand.",
+			image: "/generated/image-warm-editorial-style-environmental-portr.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Williams",
+			position: "Chief Marketing Officer",
+			company: "Peak Performance Co",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"The comprehensive brand guidelines they created eliminated the risk of inconsistent messaging across our 12 retail locations. We finally have confidence that our brand shows up cohesively everywhere.",
+			image: "/generated/image-warm-editorial-environmental-portrait-of.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sofia Rodriguez",
+			position: "VP of Brand",
+			company: "Haven Home Goods",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Their implementation toolkit saved us over $85K in agency fees last year. Our in-house team can now execute professional-level creative independently, and we only bring in outside help for major launches.",
+			image: "/generated/image-editorial-sunlit-portrait-of-a-confident.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="How we partner with you"
+	subtitle="Beyond deliverables, we build the systems and processes that empower your team to execute with confidence."
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Collaborative creative process",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Full transparency into our design methodology using industry-standard tools. We work alongside your team, not in isolation, building trust through open communication and shared ownership."
 		},
 		{
-			title: "Data Analysis",
+			title: "Scalable brand systems",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Flexible visual identities designed to evolve with your business. We create comprehensive systems that adapt and grow, ensuring consistency across every touchpoint as you scale."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Implementation toolkits",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Customized resources that empower your team to iterate independently. From brand guidelines to template libraries, we equip you with everything needed for confident execution."
+		},
+		{
+			title: "Strategic brand architecture",
+			description:
+				"Comprehensive strategies that ensure cohesive brand experiences. We go beyond visual identity to develop frameworks that maintain consistency across marketing, digital, and physical spaces."
+		},
+		{
+			title: "Flexible engagement models",
+			description:
+				"Choose the partnership structure that fits your needs. Retainer relationships for ongoing support, project-based fees for defined scopes, or hourly flexibility for evolving requirements."
+		},
+		{
+			title: "Long-term empowerment",
+			description:
+				"Training and ongoing support to maximize your investment. We ensure your team can maintain and iterate on designs for years, providing the knowledge transfer that creates lasting independence."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Ready to scale your brand with confidence?"
+	subtitle="Start building systems that empower your team"
+	description="Stop bottlenecking on external agencies. Partner with us to create collaborative brand systems that give your team the confidence to execute consistently—without sacrificing quality or creative vision."
+	imageSrc="/generated/image-a-marketing-leader-sits-at-a-warm-wood-d.webp"
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start a project",
+			variant: "primary"
+		},
+		{
+			href: "/about",
+			label: "Learn our process",
+			variant: "secondary"
+		}
+	]}
+/>

@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Founder",
+		role: "Double Agency",
+		image: "/generated/image-a-professional-designer-collaborating-wi.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"After 12 years inside global brand teams, I saw the same pattern everywhere. Agencies delivered beautiful work, then disappeared. Teams were left struggling to maintain consistency, unable to scale what they'd been given. I founded Double Agency to change that—to build systems that empower teams long after we're gone."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
