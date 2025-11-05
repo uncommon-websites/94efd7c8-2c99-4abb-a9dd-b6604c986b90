@@ -10,12 +10,30 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Bold creative that scales with your brand"
+	subtitle="We transform brand identities into collaborative systems that empower your team to execute with confidence and consistency."
+	imageSrc="/generated/image-a-marketing-leader-thoughtfully-reviewin.webp"
+	centered={false}
+	callsToAction={[
+		{
+			href: "/contact",
+			label: "Start a project"
+		},
+		{
+			href: "/about",
+			label: "Our approach"
+		}
+	]}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://cdn.brandfetch.io/meta.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/tonal.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/quayaustralia.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/nordstrom.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
